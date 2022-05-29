@@ -794,16 +794,16 @@ p {
 /* ===== About CSS ===== */
 .ud-about {
   background: #1f13c210;
-  padding: 120px 0;
+  padding: 0px 0;
 }
 
 @media (max-width: 767px) {
   .ud-about {
-    padding: 80px 0;
+    padding: 0px 0;
   }
 }
 
-.ud-about-wrapper {
+/* .ud-about-wrapper {
   background: var(--white);
   border: 1px solid #e7e3e3f1;
   display: -webkit-box;
@@ -812,7 +812,7 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
+} */
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .ud-about-wrapper {
@@ -838,8 +838,8 @@ p {
 
 .ud-about-content {
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .ud-about-content .tag {
@@ -892,7 +892,7 @@ p {
 .ud-pricing {
   padding-top: 120px;
   padding-bottom: 90px;
-  background-image: linear-gradient(#0011ff57, #ff914d); 
+  background-color: #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -2637,4 +2637,5 @@ p {
     padding: 10px 20px;
   }
 }
+
 /*# sourceMappingURL=ud-styles.css.map */
