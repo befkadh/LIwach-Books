@@ -1,0 +1,11 @@
+p {
+  font-size: 1.5em;
+  color: #FE7F88;
+  background-image: none;
+  background-color: transparent;
+}
+
+div {
+  background-image:
+      url("mdn_logo_only_color.png");
+}

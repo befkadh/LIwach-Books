@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="assets/css/Books.css"/>
+mixin book(imageURL)
+  .book(style=`--bg-image: url(${imageURL});`)
+
+.bookshelf
+  .books 
+    +book("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581128232l/50214741.jpg")
+    +book("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544204706l/42505366.jpg")
+    +book("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541621322l/42201395.jpg")
+    +book("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548518877l/43263520._SY475_.jpg")

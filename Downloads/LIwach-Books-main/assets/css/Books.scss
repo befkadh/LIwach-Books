@@ -1,0 +1,78 @@
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@mixin btn-pill {
+  color: white;
+  padding: .75em;
+  background: darken(white, 30%);
+  border-radius: .5em;
+  text-decoration: none;
+}
+
+.btn-pill {
+  @include btn-pill;
+  
+  &.active {
+    background: black;
+  }
+  
+  &.control {
+    background: darken(white, 10%);
+    color: darken(white, 60%);
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+$b_margin: 2em;
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book {
+  width: 240px;
+  padding-right: $b_margin;
+  padding-left: $b_margin;
+}
+
+.book__title {
+  margin-top: 0;
+  margin-right: -1 * $b_margin;
+  margin-left: -1 * $b_margin;
+  padding-left: $b_margin;
+  padding-top: 2em;
+  border-top: 1em solid lighten(black, 60%);
+}
+
+.book__img {
+  width: calc(100%-2em);
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.list-inline {
+  list-style-type: none;
+  padding: 0;
+  
+  li {
+    list-style-type: none;
+    display: inline-block;
+    
+    & + li {
+      margin-left: .5em
+    }
+  }
+}
+
